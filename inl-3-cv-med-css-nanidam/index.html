@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Nani Dam's ever first portfolio on the web, contains information about e.g. skills, links to her online profiles and much more.">
+
+    <title>Nani?</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;600;700;900&family=Lora:wght@400;500;600;700&family=Quicksand:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6ad14e8f61.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Nani Dam</h1>
+            <input type="checkbox" class="check" aria-label="Menu button" tabindex="0">
+            <div class="menu">
+                <div class="menu-content">
+                    <button class="menu-button" aria-label="Menu button" tabindex="-1">
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <nav>
+                        <ul>
+                            <li><a href=" #intro-sect" class="menu-links">Nani?</a></li>
+                            <li><a href="#edu-sect" class="menu-links">Education</a></li>
+                            <li><a href="#lang-sect" class="menu-links">Languages</a></li>
+                            <li><a href="#skills-sect" class="menu-links">Skills</a></li>
+                            <li><a href="#links-sect" class="menu-links">Socials</a></li>
+                            <li><a href="#thoughts-sect" class="menu-links">Thoughts?</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="intro">
+            <article>
+                <p class="intro-text1">Front-end developer<br><span class="intro-text1-span">in the making</span></p>
+            </article>
+            <img src="Photos/nani-dam-selfie-animation.jpg"
+                alt="Animated selfie picture. Brown hair, yellow shirt and a wink in her left eye" width="1000"
+                class="selfie-pic" id="intro-sect">
+            <article class="intro-text2">
+                <p><b>Who am i?</b><br>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam voluptatum repellendus assumenda
+                    voluptates, quaerat, vel aut esse dolorum harum sunt nihil error tempora, velit accusantium sed vero
+                    sit consectetur quibusdam?
+                </p>
+            </article>
+        </section>
+        <section class="edu" id="edu-sect">
+            <h2>Education & School</h2>
+            <ul>
+                <li class="edu-fed">
+                    <!-- infoga MI-logo? -->
+                    <b class="edu-prog">Front end developer</b> <br>
+                    <p class="edu-prog">Medieinstitutet</p>
+                    <p class="edu-prog">2022 &rarr; 2024</p>
+                </li>
+                <li class="edu-rest">
+                    <b>Midwife</b> <br>
+                    <p>Karolinska Institutet</p>
+                    <p>2018 &rarr; 2019</p>
+                </li>
+                <li class="edu-rest">
+                    <b>Registered Nurse</b> <br>
+                    <p>Linköpings University</p>
+                    <p>2013 &rarr; 2016</p>
+                </li>
+            </ul>
+        </section>
+        <section class="mix-box">
+            <article class="languages" id="lang-sect">
+                <h2>Languages</h2>
+                <ul class="lang-text">
+                    <li>Swedish</li>
+                    <li>English</li>
+                    <li>Vietnamese</li>
+                </ul>
+            </article>
+            <article class="skills" id="skills-sect">
+                <h2>Skills</h2>
+                <ul class="prog-bar">
+                    <li>
+                        <label for="html-bar"><b>HTML</b></label>
+                        <progress class="bar" id="html-bar" value="39" max="100"></progress>
+                    </li>
+                    <li>
+                        <label for="css-bar"><b>CSS</b></label>
+                        <progress class="bar" id="css-bar" value="32" max="100"></progress>
+                    </li>
+                    <li>
+                        <label for="javascript-bar"><b>JavaScript</b></label>
+                        <progress class="bar" id="javascript-bar" value="12" max="100"></progress>
+                    </li>
+                    <li>
+                        <label for="testing-bar"><b>Testing</b></label>
+                        <progress class="bar" id="testing-bar" value="2" max="100"></progress>
+                    </li>
+                    <li>
+                        <label for="api-bar"><b>API development</b></label>
+                        <progress class="bar" id="api-bar" value="2" max="100"></progress>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section class="links" id="links-sect">
+            <a class="fa-brands fa-github-alt" href="https://github.com/nanidam"
+                aria-label="Link to Nani Dam's GitHub profile" target="_blank"></a>
+            <a class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/nani-d-735658252/"
+                aria-label="Link to Nani Dam's LinkedIn profile" target="_blank"></a>
+            <a href="https://github.com/nanidam" class="fa-github-alt links-text"
+                aria-label="Link to Nani Dam's GitHub profile" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/nani-d-735658252/" class="fa-linkedin links-text"
+                aria-label="Link to Nani Dam's LinkedIn profile" target="_blank">LinkedIn</a>
+        </section>
+        <section class="form" id="thoughts-sect">
+            <form>
+                <h2>Leave a message!</h2>
+                <label for="name" class="form-content">Name:</label>
+                <input class="form-content form-box" type="text" id="name" name="name" placeholder="Your name..."><br>
+
+                <label for="email" class="form-content">E-mail:</label>
+                <input class="form-content form-box" type="email" id="email" name="email"
+                    placeholder="Your e-mail..."><br>
+
+                <label for="message" class="form-content">Message:</label>
+                <textarea class="form-content" id="message" name="message"
+                    placeholder="What's on your mind?"></textarea><br>
+
+                <button class="form-button" type="submit" value="submit">Send</button>
+            </form>
+        </section>
+        <footer>
+            <ul class="contact-info">
+                <li>
+                    <b>Nani Dam</b>
+                </li>
+                <li>
+                    <a class="fa-brands fa-github" id="footer-gh" href="https://github.com/nanidam"
+                        aria-label="Link to Nani Dam's GitHub profile" target="_blank"></a>
+                    <a class="footer-text" href="https://github.com/nanidam"
+                        aria-label="Link to Nani Dam's GitHub profile" target="_blank">GitHub</a>
+                </li>
+                <li>
+                    <a class="fa-brands fa-linkedin-in" id="footer-li"
+                        href="https://www.linkedin.com/in/nani-d-735658252/"
+                        aria-label="Link to Nani Dam's LinkedIn profile" target="_blank"></a>
+                    <a class="footer-text" href="https://www.linkedin.com/in/nani-d-735658252/"
+                        aria-label="Link to Nani Dam's LinkedIn profile" target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                    <a class="footer-text" href="mailto:nani.dam@medieinstitutet.se" aria-label="Mail Link to Nani Dam">
+                        nani.dam@medieinstitutet
+                    </a>
+                </li>
+                <li>
+                    <a class="fa-solid fa-map-pin"
+                        href="https://www.google.com/maps/place/Stockholm/@59.326242,17.8419722,11z/data=!3m1!4b1!4m5!3m4!1s0x465f763119640bcb:0xa80d27d3679d7766!8m2!3d59.3293235!4d18.0685808"
+                        aria-label="Picture of black map pin" target="_blank"></a>
+                    <p class="footer-pin">Stockholm</p>
+                </li>
+            </ul>
+        </footer>
+    </main>
+</body>
+
+</html>
