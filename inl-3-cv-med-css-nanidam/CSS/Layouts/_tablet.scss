@@ -1,0 +1,96 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.intro .intro-text1 {
+    font-size: 5rem;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.intro-text2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+.edu {
+    align-items: center;
+    text-align: center;
+
+    h2 {
+        left: 0;
+    }
+
+    .edu-fed {
+        left: 55px;
+        font-size: 1.5rem;
+        width: 300px;
+        height: 150px;
+        margin-top: 20px;
+
+        .edu-prog {
+            top: 50px;
+            left: -5px;
+        }
+    }
+
+    .edu-rest {
+        left: -22px;
+        font-size: 1.3rem;
+        line-height: 29px;
+    }
+}
+
+.languages {
+    .lang-text {
+        top: -55px;
+        margin-top: 162px;
+        font-size: 2rem;
+    }
+}
+
+.skills {
+
+    .prog-bar {
+        font-size: 1.5rem;
+        margin-left: 60px;
+
+        .bar {
+            height: 30px;
+        }
+    }
+}
+
+.links .fa-brands {
+    font-size: 7rem;
+}
+
+.form {
+    font-size: 1.5rem;
+
+    .form-content {
+        width: 90%;
+    }
+
+    .form-button {
+        height: 40px;
+        width: 120px;
+        left: 43%;
+    }
+}
+
+footer .contact-info {
+    font-size: 1.2rem;
+}
